@@ -23,7 +23,6 @@ for (int j = 1; j < 5; j++)
     sb.Append(random.Next(1, 6));
 }
 randomNumber = sb.ToString();
-Console.WriteLine("The random number is " +  randomNumber); 
 
 //Provide 10 attempts
 for (int i = 1; i <= attempts; i++)
